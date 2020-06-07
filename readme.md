@@ -1,9 +1,8 @@
 #### star_wars_keys
 
-![Screenshot](screenshot.png)
+[Screenshot](screenshot.png)
 
-#### deployed @github - [link](https://tmsnvk.github.io/star_wars_keys/public/index.html)
-#### deployed @heroku - [link](https://tmsnvk-starwarskeys.herokuapp.com/)
+#### deployed [@github](https://tmsnvk.github.io/star_wars_keys/src/html/index.html)
 ---
 
 #### description
@@ -15,15 +14,9 @@
 
 ```
 *
-|- .babelrc
-|- .gitignore
-|- index.js
 |- license.md
-|- package-lock.json
-|- package.json
 |- readme.md
 |- screenshot.png
-|- webpack.config.js
 |- SRC
     |- AUDIO
         |- at-at.wav
@@ -34,23 +27,12 @@
         |- yoda.wav
     |- HTML
         |- index.html
-    |- IMG
+    |- IMAGES
         |- background.jpg
     |- JS
         |- app.js
-        |- functions.js
-    |- PUBLIC
-        |- at-at.wav
-        |- at-st.wav
-        |- background.jpg
-        |- index-bundle.js
-        |- index.html
-        |- probe.wav
-        |- tie.wav
-        |- vader.wav
-        |- yoda.wav
     |- STYLES
-        |- base.scss
-        |- main.scss
-        |- mediaq.scss
+        |- base.css
+        |- main.css
+        |- mediaq.css
 ```
