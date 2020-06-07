@@ -1,0 +1,41 @@
+/* box - default */
+.key-main-container {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  height: 100vh;
+  margin: 0 0 0 40rem;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+}
+  
+.press {
+  min-width: 10rem;
+  min-height: 10rem;
+  background: var(--box-background-rgba);
+  text-shadow: 0 0 2.5rem var(--box-text-shadow);
+  letter-spacing: 0.2rem;
+  border: 0.3rem solid var(--box-default);
+  border-radius: 1rem;
+  margin: 0 3rem 60rem 0;
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+  transition: all 0.5s ease;
+}
+
+.span {
+  font-size: 2rem;
+}
+
+kbd {
+  display: block;
+  font-size: 5rem;
+}
+  
+/* box - toggle */
+.transform {
+  box-shadow: 0 0 1.5rem var(--box-toggle);
+  border: 0.3rem solid var(--box-toggle);
+  color: var(--box-toggle);
+  transform: scale(1.1);
+}
