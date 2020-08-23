@@ -1,13 +1,5 @@
 /* base setup */
 * {
-  --primary-color: #fc8f00;
-  --secondary-color: #ff00d4;
-  --box-background-rgba: rgba(22, 22, 22, 0.5);
-  --box-text-shadow: #181818;
-  font-family: "Roboto", sans-serif;
-  font-size: 62.5%;
-  text-align: center;
-  line-height: 1.5;
   border: 0;
   margin: 0;
   padding: 0;
@@ -21,7 +13,15 @@
 
 html,
 body {
+  --primary-color: #fc8f00;
+  --secondary-color: #ff00d4;
+  --box-background-rgba: rgba(22, 22, 22, 0.5);
+  --box-text-shadow: #181818;
+  font-family: "Roboto", sans-serif;
+  font-size: 62.5%;
   color: var(--primary-color);
+  text-align: center;
+  line-height: 1.5;
   background-image: url(../images/background.jpg); /* background img src - https://www.wallpaperflare.com/star-wars-storm-trooper-illustration-lego-star-wars-stormtrooper-wallpaper-thhd */
   background-repeat: no-repeat;
   background-size: cover;
