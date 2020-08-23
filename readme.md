@@ -3,7 +3,7 @@
 + a simple vanilla HTML/CSS/JS app that plays sounds after certain keydowns;
 + keys are linked to audio files using the `data-key` attribute;
 + in addition, the code toggles visual styles to make the keydowns visible as well;
-+ OR visit the live heroku deployed version [here](https://starwarskeys.herokuapp.com/).
++ OR visit the live github deployed version [here](https://tmsnvk.github.io/star_wars_keys/src/html/index.html/).
 
 #### project structure
 ```
