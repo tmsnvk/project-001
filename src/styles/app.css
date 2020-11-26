@@ -1,25 +1,23 @@
-/* box - default */
-.key-main-container {
+.key-container {
+  height: 100vh;
   display: flex;
   flex-direction: row;
-  height: 100vh;
-  margin: 0 0 0 40rem;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   text-transform: uppercase;
 }
-  
+
 .press {
   width: 12rem;
   height: 12rem;
   background: var(--box-background-rgba);
-  text-shadow: 0 0 2.5rem var(--box-text-shadow);
   letter-spacing: 0.2rem;
+  text-shadow: 0 0 2.5rem var(--box-text-shadow);
+  margin: 0 3rem 40rem 0;
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
   border: 0.3rem solid var(--primary-color);
   border-radius: 1rem;
-  margin: 0 3rem 60rem 0;
-  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
-  transition: all 0.5s ease;
+  transition: 0.5s ease;
 }
 
 .span {
@@ -30,11 +28,10 @@ kbd {
   display: block;
   font-size: 5rem;
 }
-  
-/* box - toggle */
+
 .transform {
-  box-shadow: 0 0 1.5rem var(--secondary-color);
-  border: 0.3rem solid var(--secondary-color);
   color: var(--secondary-color);
+  border: 0.3rem solid var(--secondary-color);
+  box-shadow: 0 0 1.5rem var(--secondary-color);
   transform: scale(1.1);
 }

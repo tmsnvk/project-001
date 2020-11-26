@@ -1,36 +1,10 @@
-### star_wars_keys || project-001 || tmsnvk
+### star_wars_keys || project-001
 #### description
-+ a simple vanilla HTML/CSS/JS app that plays sounds after certain keydowns;
-+ keys are linked to audio files using the `data-key` attribute;
-+ in addition, the code toggles visual styles to make the keydowns visible as well;
-+ OR visit the live github deployed version [here](https://tmsnvk.github.io/star_wars_keys/src/html/index.html).
-
-#### project structure
-```
-*
-|- favicon.ico
-|- license.md
-|- readme.md
-|- screenshot.png
-|- SRC
-  |- AUDIO
-    |- at-at.wav
-    |- at-st.wav
-    |- probe.wav
-    |- tie.wav
-    |- vader.wav
-    |- yoda.wav
-  |- HTML
-    |- index.html
-  |- IMAGES
-    |- background.jpg
-  |- JS
-    |- app.js
-  |- STYLES
-    |- base.css
-    |- main.css
-    |- mediaq.css
-```
++ a simple vanilla HTML/CSS/JS application that plays sounds after certain keydowns.
++ the keys are linked to audio files using the `data-key` attribute.
++ in addition, the code toggles a css style to add visual effects to each keydown.
++ not responsive/mobile designed.
++ the live version is deployed on github [here](https://tmsnvk.github.io/project-001/src/html/index.html).
 
 #### screenshot
 ![Screenshot](screenshot.png)
