@@ -11,7 +11,7 @@
   width: 12rem;
   height: 12rem;
   background: var(--box-background-rgba);
-  letter-spacing: 0.2rem;
+  letter-spacing: 0.25rem;
   text-shadow: 0 0 2.5rem var(--box-text-shadow);
   margin: 0 3rem 40rem 0;
   padding: 0.5rem 0.5rem 0.5rem 0.5rem;
